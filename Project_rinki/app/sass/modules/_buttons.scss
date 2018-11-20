@@ -1,0 +1,11 @@
+.btn-primary {
+    background-color: $standOutColor;
+    color: $whiteColor;
+    border-color: $whiteColor;
+
+    &:hover {
+        background-color: $whiteColor;
+        color: $standOutColor;
+        border-color: $standOutColor;
+    }
+}
