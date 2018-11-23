@@ -139,6 +139,7 @@ export default class Categories extends Component {
         return _.map(this.state.data, (item, i) => {
             return (
                 <div key={i} id="grid-table" className="col-lg-6 col-sm-6 mb-6">
+                <spna className="server-name">{i}</spna>
                 <table class="table border border-primary">
     <thead class="thead-dark">
         <tr>
@@ -176,12 +177,18 @@ export default class Categories extends Component {
                     </button>
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a href="articles" class="nav-link">PROD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="dr" class="nav-link">DR</a>
-                            </li>
+                        <li class="nav-item active">
+                        <a href="articles" class="nav-link">PROD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dr" class="nav-link">DR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sit" class="nav-link">SIT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dev" class="nav-link">DEV</a>
+                    </li>
                         
                         </ul>
                     </div>

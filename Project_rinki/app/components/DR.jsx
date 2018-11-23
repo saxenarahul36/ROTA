@@ -159,6 +159,12 @@ export default class DR extends Component {
                     <li class="nav-item">
                         <a href="dr" class="nav-link">DR</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="sit" class="nav-link">SIT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dev" class="nav-link">DEV</a>
+                    </li>
                    
                 </ul>
             </div>
